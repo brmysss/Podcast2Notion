@@ -1,2 +1,10 @@
 .env
 scripts/__pycache__/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+cover/
+OUT_FOLDER/
+.notionhub-artifacts/

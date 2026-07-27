@@ -269,7 +269,7 @@ def insert_episode(episodes, d):
         episode["时长"] = result.get("duration")
         episode["喜欢"] = result.get("isPicked")
         episode["Podcast"] = [d.get(pid)[0]]
-        episode["链接"] = f"hhttps://www.xiaoyuzhoufm.com/episode/{result.get('eid')}"
+        episode["链接"] = f"https://www.xiaoyuzhoufm.com/episode/{result.get('eid')}"
         status = "未听"
         if result.get("isFinished"):
             status = "听过"

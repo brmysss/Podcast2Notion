@@ -1,4 +1,12 @@
 
+# 小宇宙同步到 Notion
+
+## NotionHub 免费 Runner
+
+NotionHub 插件使用固定 tag `notionhub-free-v1.0.0` 运行本项目。免费
+Runner 只同步 Podcast 和 Episode 基础数据，直接访问小宇宙与 Notion，
+不请求 NotionHub Worker，也不包含 AI 转写、思维导图或播放器。
+
 ## 使用
 
 > [!IMPORTANT]  
